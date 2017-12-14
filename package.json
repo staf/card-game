@@ -1,7 +1,4 @@
 {
-  "name": "typescript-boilerplate",
-  "version": "0.1.0",
-  "description": "A starting point for node.js & TypeScript application",
   "main": "index.js",
   "scripts": {
     "start": "   node    lib/server-main.js",
@@ -19,27 +16,12 @@
     "webpack:watch": " webpack  --watch   --config webpack/dev.js        ",
     "webpack:prod": "  webpack            --config webpack/prod.js       "
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jokester/typescript-boilerplate.git"
-  },
-  "keywords": [
-    "nodejs",
-    "webpack",
-    "TypeScript",
-    "boilerplate"
-  ],
-  "author": "Wang Guan <momocraft@gmail.com>",
-  "license": "MIT",
   "private": true,
-  "bugs": {
-    "url": "https://github.com/jokester/typescript-boilerplate/issues"
-  },
   "engines": {
     "node": ">= 6.0.0"
   },
-  "homepage": "https://github.com/jokester/typescript-boilerplate#readme",
   "dependencies": {
+    "@types/createjs": "^0.0.29",
     "corejs": "^1.0.0",
     "express": "^4.16.2",
     "tslib": "^1.8.0"
